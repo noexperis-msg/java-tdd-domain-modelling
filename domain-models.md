@@ -13,9 +13,9 @@ I'd like to see an itemised receipt that includes the name and price of the prod
 I bought as well as the quantity, and a total cost of my basket.
 ```
 
-| Classes        | Methods                                           | Scenario                    | Outputs                                                                                      |
-|----------------|---------------------------------------------------|-----------------------------|----------------------------------------------------------------------------------------------|
-| ShoppingBasket | calculateTotalCost(ArrayList\<ShoppingItem>)      | No items in basket          | Returns 0                                                                                    |
-|                |                                                   | One or more items in basket | Returns the total cost of the items                                                          |
-|                | generateItemizedReceipt(ArrayList\<ShoppingItem>) | No items in basket          | Returns null                                                                                 |
-|                |                                                   | One or more items in basket | Returns formatted string with item names, quantity and prices with the total cost at the end |
+| Classes        | Methods                                      | Scenario                    | Outputs                                                                                      |
+|----------------|----------------------------------------------|-----------------------------|----------------------------------------------------------------------------------------------|
+| ShoppingBasket | calculateTotalCost(ArrayList\<ShoppingItem>) | No items in basket          | Returns 0                                                                                    |
+|                |                                              | One or more items in basket | Returns the total cost of the items                                                          |
+|                | generateReceipt(ArrayList\<ShoppingItem>)    | No items in basket          | Returns null                                                                                 |
+|                |                                              | One or more items in basket | Returns formatted string with item names, quantity and prices with the total cost at the end |
